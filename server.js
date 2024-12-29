@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Connexion à MongoDB
-mongoose.connect('mongodb+srv://sergende695:392GHq1269n9yIBq@facebookuser.zf45c.mongodb.net/logindata?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://sergende695:sergeleprince237@facebookuser.zf45c.mongodb.net/logindata?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
