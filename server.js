@@ -57,5 +57,5 @@ app.get('/logins', async (req, res) => {
 
 // Lancer le serveur
 app.listen(PORT, () => {
-  console.log(`Serveur en cours d'exécution sur http://localhost:${PORT}`);
+  console.log(`Serveur en cours d'exécution sur https://back-ky38.onrender.com`);
 });
