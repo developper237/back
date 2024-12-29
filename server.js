@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Connexion à MongoDB
-const DB_URI = 'mongodb://127.0.0.1:27017/loginDB'; // Changez l'URI selon vos paramètres
+const DB_URI = 'mongodb+srv://sergende695:< 392GHq1269n9yIBq>@facebookuser.zf45c.mongodb.net/?retryWrites=true&w=majority&appName=facebookUser'; // Changez l'URI selon vos paramètres
 mongoose.connect(DB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('Connecté à MongoDB'))
     .catch(err => console.error('Erreur de connexion à MongoDB:', err));
