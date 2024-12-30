@@ -7,7 +7,10 @@ const app = express();
 const PORT = 3000;
 
 // Middleware
-app.use(cors('https://frontend-coral-zeta-89.vercel.app/'));
+app.use(cors({
+  origin: ['https://frontend-coral-zeta-89.vercel.app', 'http://localhost:3000'], // Autorise plusieurs origines
+}));
+
 app.use(bodyParser.json());
 
 // Connexion à MongoDB
